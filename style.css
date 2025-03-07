@@ -10,6 +10,15 @@ header {
   padding: 20px;
   text-align: center;
   color: white;
+  position: relative; /* Important for positioning the logo */
+}
+
+header .logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px; /* Adjust the size of the logo */
+  height: auto;
 }
 
 header nav ul {
